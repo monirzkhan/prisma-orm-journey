@@ -39,10 +39,10 @@ async function main() {
 
     const newPosts=await prisma.post.create({
         data:{
-            title:"My many post",
-            content:"This is my first post for second id!",
+            title:"Argentina vs Autria",
+            content:"Today is the match day of Argentina vs Austria in FIFA World Cup 2026",
             published: true,
-            authorId:1
+            authorId:3
         }
 
     })
